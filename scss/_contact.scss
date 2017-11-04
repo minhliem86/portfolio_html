@@ -16,6 +16,16 @@
     border-radius: 0;
     background: none;
     box-shadow: none !important;
+    color:white;
+  }
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: white;
   }
   label {
     font-size: 0.85em;

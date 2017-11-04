@@ -216,6 +216,8 @@ header.masthead {
           margin: 0; }
 #portfolio * {
   z-index: 2; }
+#portfolio .portfolio-modal {
+  z-index: 1050; }
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
@@ -466,7 +468,17 @@ header.masthead {
     border: none;
     border-radius: 0;
     background: none;
-    box-shadow: none !important; }
+    box-shadow: none !important;
+    color: white; }
+  .floating-label-form-group ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: white; }
+  .floating-label-form-group ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white; }
+  .floating-label-form-group :-ms-input-placeholder {
+    /* IE 10+ */
+    color: white; }
   .floating-label-form-group label {
     font-size: 0.85em;
     line-height: 1.764705882em;
